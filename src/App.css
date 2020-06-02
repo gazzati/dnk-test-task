@@ -24,7 +24,7 @@
 .title {
   width: 68px;
   height: 20px;
-  font-family: ALSStory;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   line-height: 1.43;
   letter-spacing: 1.5px;
@@ -33,7 +33,7 @@
 
 .lastSign {
   margin-left: 15px;
-  font-family: ALSStory;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   line-height: 1.36;
   color: #6d7278;
@@ -51,7 +51,7 @@
 
 .private {
   margin-left: 8px;
-  font-family: ALSStory;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   line-height: 1.36;
   color: #8a7c5d;
@@ -59,16 +59,17 @@
 
 .mainText {
   margin-top: 15px;
-  font-family: ALSStory;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
   line-height: 1.27;
 }
 
 .description {
-  font-family: ALSStory;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   width: 450px;
+  margin-top: 15px;
 }
 
 .mainImg {
@@ -106,7 +107,7 @@
 }
 
 .tab span {
-  font-family: ALSStory;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 22px;
   line-height: 1.27;
   color: #ffffff;
@@ -131,7 +132,7 @@
 }
 
 .miniHead span {
-  font-family: ALSStory;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 22px;
   line-height: 1.27;
   color: #ffffff;
@@ -170,7 +171,7 @@
   margin: 29px 0 0 45px;
   width: 693px;
   height: 232px;
-  font-family: ALSStory;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
@@ -202,7 +203,7 @@
   display: grid;
   grid-template-areas: "span img" "form img";
   grid-template-columns: 693px auto;
-  grid-template-rows: 80px auto;
+  grid-template-rows: 100px auto;
 }
 
 .openedActivateCodeBlock .mainInfo span {
@@ -210,7 +211,7 @@
   margin: 29px 0 0 45px;
   width: 693px;
   height: 232px;
-  font-family: ALSStory;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
@@ -233,7 +234,7 @@
   outline: none;
   border-bottom: #405265 1px solid;
   width: 281px;
-  font-family: ALSStory;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
@@ -251,12 +252,16 @@
   background-color: #142536;
   outline: none;
   border: 1px #6d7278 solid;
-  font-family: ALSStory;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
   color: #ffffff;
   cursor: pointer;
+}
+
+.activateForm button:hover {
+  border: 1px white solid;
 }
 
 @media screen and (max-width: 375px){
@@ -277,6 +282,12 @@
     display: none;
     position: absolute;
     visibility: hidden;
+  }
+  .mainText {
+    width: calc(100% - 5px);
+  }
+  .description {
+    width: calc(100% - 5px);
   }
   .mainImg {
     height: 190px;
@@ -315,13 +326,13 @@
   }
 
   .openedFriendBlock {
-    height: 830px;
+    height: 850px;
   }
 
   .openedFriendBlock .mainInfo {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 450px auto;
+    grid-template-rows: 480px auto;
   }
 
   .openedFriendBlock .mainInfo span {

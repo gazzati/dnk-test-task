@@ -1,6 +1,6 @@
 Тестовое задание для компании [Генотек](https://hh.ru/vacancy/37285729).
 
-Страница сверстана с использованием реакта.
+Страница сверстана с использованием реакта и задеплоена на gh-pages по ссылке https://gazzati.github.io/dnk-test-task/.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
