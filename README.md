@@ -1,3 +1,7 @@
+Тестовое задание для компании [Генотек](https://hh.ru/vacancy/37285729).
+
+Страница сверстана с использованием реакта.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
